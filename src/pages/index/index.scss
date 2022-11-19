@@ -1,0 +1,34 @@
+.uni-media-list {
+	padding: 20rpx;
+	margin: 20rpx;
+	overflow: hidden;
+	border: 1px solid #c8c7cc;
+	display: flex;
+	align-items: center;
+}
+
+.uni-media-list-img {
+	height: 90rpx;
+	width: 90rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #c8c7cc;
+}
+
+.uni-media-list-content {
+	height: 90rpx;
+	width: calc(100% - 90rpx);
+	overflow: hidden;
+	padding-left: 20rpx;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.uni-media-list-content-top {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
